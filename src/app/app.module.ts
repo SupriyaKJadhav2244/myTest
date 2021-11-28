@@ -7,7 +7,8 @@ import { DisplaymapComponent } from './displaymap/displaymap.component';
 import { AssignedComponent } from './assigned/assigned.component';
 import { UnassignedComponent } from './unassigned/unassigned.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { LinkslComponent } from './linksl/linksl.component'; 
+import { LinkslComponent } from './linksl/linksl.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component'; 
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LinkslComponent } from './linksl/linksl.component';
     AssignedComponent,
     UnassignedComponent,
     NavigationComponent,
-    LinkslComponent 
+    LinkslComponent,
+    PagenotfoundComponent 
   ],
   imports: [
     BrowserModule,

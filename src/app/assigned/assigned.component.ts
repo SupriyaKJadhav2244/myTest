@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
         </li>
     </ul><br><br> 
     <div class="card text-dark bg-light mb-3" style="width: 100%;" *ngFor="let data of assignedData"> 
-    <div class="card-body"> 
+    <div class="card-body">   
       <ul>
         <li>{{data.id}}</li>
         <li>{{data.name}}</li>

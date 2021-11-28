@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
+import { AppComponent } from './app.component'; 
 import { DisplaymapComponent } from './displaymap/displaymap.component';
 import { AssignedComponent } from './assigned/assigned.component';
 import { UnassignedComponent } from './unassigned/unassigned.component';
@@ -12,8 +11,7 @@ import { LinkslComponent } from './linksl/linksl.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomepageComponent,
+    AppComponent, 
     DisplaymapComponent,
     AssignedComponent,
     UnassignedComponent,
